@@ -1,0 +1,267 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+,,,,,,,,,,,,,,,,,,,,4,1,"Testing Documentation Viktoria Streminskaia",1
+1,"Add Customer: redirect on the page Add Customer via clicking the button Add Customer on the main page",,"The page https://demo.guru99.com/telecom/index.html is open",,,low,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the Add Customer button on the main page
+","1. User is redirected on the relevant page
+","1. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+2,"Add Customer: redirect on the page Add Customer via  Hamburger menu",,"The page https://demo.guru99.com/telecom/index.html is open",,,low,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on the Hamburger menu
+2. Choose Add Customer button
+","1. Active buttons open
+2. User is redirected on the relevant page
+","1. 
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+3,"Add customer: Background Check allows to choose Done or Pending radio buttons",,"The page https://demo.guru99.com/telecom/index.html is open",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on the radio button ""Done""
+2. Click on the radio button ""Pending""
+","1. The radio button ""Done"" is selected. The radio button 
+""Pending"" isn't selected
+2. The radio button ""Pending"" is selected. The radio button ""Done"" isn't selected
+","1. 
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+4,"Add Customer: FirstName validation (valid data: Latin letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Input in the field FirstName only Latin letters
+","1. The FirstName is selected
+2. Letters are displayed in the FirstName field. No error message appears
+","1. 
+2. Viktoria
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+5,"Add Customer: FirstName validation (invalid data: Cyrillic letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Input in the field FirstName Cirillic letters
+","1. The FirstName is selected
+2. An error message ""Cirillic are not allowed"" is appears
+","1. 
+2. Виктория
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+6,"Add Customer: FirstName validation (invalid data: Numbers)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Input in the field FirstName Numbers
+","1. The FirstName is selected
+2. An error message ""Numbers are not allowed"" is appears
+","1. 
+2. 12345
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+7,"Add Customer: FirstName validation (invalid data: Special characters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Input in the field FirstName Special characters
+","1. The FirstName is selected
+2. An error message ""Special characters are not allowed"" is appears
+","1. 
+2. !@#$<>
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+8,"Add Customer: FirstName validation (empty value)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open. All fields except FirstName filled with valid data",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Leave the field FirstName empty
+3. Click Submit button
+4. Close the modal message
+5. Click Submit button
+","1. The FirstName is selected
+2. FirstName field is empty
+3. The modal window appears with a message"" Please fill all fields""
+4. The modal window disappeared
+5. The message 'First name must not be blank' is presented under the FirstName field
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+9,"Add Customer: LastName validation (valid data: Latin letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the LastName field
+2. Input in the field LastName only Latin letters
+","1. The LastName is selected
+2. Letters are displayed in the LastName field. No error message appears
+","1. 
+2. Viktoria
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+10,"Add Customer: LastName validation (invalid data: Cyrillic letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the LastName field
+2. Input in the field LastName Cirillic letters
+","1. The LastName is selected
+2. An error message ""Cirillic are not allowed"" is appears
+","1. 
+2. Виктория
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+11,"Add Customer: LastName validation (invalid data: Numbers)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the LastName field
+2. Input in the field LastName Numbers
+","1. The LastName is selected
+2. An error message ""Numbers are not allowed"" is appears
+","1. 
+2. 12345
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+12,"Add Customer: LastName validation (invalid data: Special characters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the FirstName field
+2. Input in the field FirstName Special characters
+","1. The FirstName is selected
+2. An error message ""Special characters are not allowed"" is appears
+","1. 
+2. !@#$<>
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+13,"Add Customer: LastName validation (empty value)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open. All fields except LastName filled with valid data",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the LastName field
+2. Leave the field LastName empty
+3. Click Submit button
+4. Close the modal message
+5. Click Submit button
+","1. The LastName is selected
+2. LastName field is empty
+3. The modal window appears with a message"" Please fill all fields""
+4. The modal window disappeared
+5. The message 'Last name must not be blank' is presented under the LastName field
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+14,"Add Customer: Email validation (valid data: Latin letters, numbers + @gmail.com)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Email field is selected",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Input in the Email field valid data
+","1. Data are displayed in the Email field. No error message appears
+","1. vika@gmail.com
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+15,"Add Customer: Email validation (invalid data: Cirillic letters+@gmail.com)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Email field is selected",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Fill in the Email field in Cyrillic letters + @gmail.com
+","1. An error message ""Email-ID is not valid"" is arrears
+","1. вика@gmail.com
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+16,"Add Customer: Email validation (invalid data: Latin letters without @ and gmail.com)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Email field is selected",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Input in the Email field only Latin letters
+","1. An error message ""Email is not valid"" is appears
+","1. вика
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+17,"Add Customer: Email validation (invalid data: special characters+@gmail.com)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Email field is selected",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Fill in the Email field in special characters + @gmail.com
+","1. An error message ""Email is not valid"" is appears
+","1. #$%^&\*@gmail.com
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+20,"Add Customer: Email validation (empty value)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Email field is selected. All fields except Email filled with valid data",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Leave the field Email empty
+2. Click Submit button
+3. Close the modal message
+4. Click Submit button
+","1. Email field is empty
+2. The modal window appears with a message"" Please fill all fields""
+3. The modal window disappeared
+4. The message 'Last name must not be blank' is presented under the Email field
+","1. 
+2. 
+3. 
+4. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+21,"Add Customer: Address validation (valid data: Latin letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field only Latin letters
+","1. The Address is selected
+2. Letters are displayed in the Address field. No error message appears
+","1. 
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+22,"Add Customer: Address validation (valid data: Latin letters with dot)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field Latin letters with dot
+","1. The Address e is selected
+2. Letters with dot are displayed in the Address field. No error message appears
+","1. 
+2. Minsk.
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+23,"Add Customer: Address validation (valid data: Latin letters with comma)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field Latin letters with comma
+","1. The Address e is selected
+2. Letters with comma are displayed in the Address field. No error message appears
+","1. 
+2. Minsk, Uborevicha
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+24,"Add Customer: Address validation (invalid data: Cirillic letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field Cirillic letters
+","1. The Address field is selected
+2. An error message ""Сirillic are not allowed"" is appears
+","1. 
+2. Минск
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+25,"Add Customer: Address validation (invalid data: Special characters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field Special characters
+","1. The Address is selected
+2. An error message ""Special characters are not allowed"" is appears
+","1. 
+2. !@#$<>
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+26,"Add Customer: Address validation (invalid data: Numbers and special characters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the Address field
+2. Input in the Address field Numbers and special characters
+","1. The Address field is selected
+2. An error message ""Numbers and special characters are not allowed"" is appears
+","1. 
+2. 123!#$%
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+27,"Add Customer: Address validation (empty value)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Address field is selected. All fields except Address filled with valid data",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Leave the field Address empty
+2. Click Submit button
+3. Close the modal message
+4. Click Submit button
+","1. Address field is empty
+2. The modal window appears with a message"" Please fill all fields""
+3. The modal window disappeared
+4. The message 'Last name must not be blank' is presented under the Address field
+","1. 
+2. 
+3. 
+4. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+28,"Add Customer: Mobile number validation (valid data: Numbers)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select the Mobile number field
+2. Input in the Mobile number field numbers
+","1. The Mobile number field is selected
+2. Numbers are displayed in the Address field. No error message appears
+","1. 
+2. 12345678
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+29,"Add Customer: Mobile number validation (invalid data: Special characters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the Mobile number field
+2. Input in the Mobile number field Special characters
+","1. The Mobile number field is selected
+2. An error message ""Special characters are not allowed"" is appears
+","1. 
+2. !@#$<>
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+30,"Add Customer: Mobile number validation (invalid data: Latin and Cirillic letters)",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Select the Mobile number field
+2. Input in the Mobile number field Latin and Cirillic letters
+","1. The Mobile number field is selected
+2. An error message "" Characters are not allowed"" is appears
+","1. 
+2. Vиkторia
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+31,"Add Customer: Mobile number validation  (empty value)",,"https://demo.guru99.com/telecom/addcustomer.php is open. The Mobile number field is selected. All fields except Mobile number filled with valid data",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Leave the Mobile number field empty
+2. Click Submit button
+3. Close the modal message
+4. Click Submit button
+","1. Mobile number field is empty
+2. The modal window appears with a message"" Please fill all fields""
+3. The modal window disappeared
+4. The message 'Last name must not be blank' is presented under the Mobile number field
+","1. 
+2. 
+3. 
+4. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+32,"The Reset button resets all data in fields and error messages",,"https://demo.guru99.com/telecom/addcustomer.php is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Fill in the fields with invalid data
+2. Click Reset button
+","1. Error messages appear bellow fields
+2. All data and error messages disappear
+","1. FirstName- Вика
+LastName-!@#$%
+Email- rambler.ru
+Address-Новгород
+Mobile number- городской
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+56,"Information about Customer ID appears after clicking the Submit button. Customer is added to the database.",,,,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Fill in the fields with valid data
+2. Click the Submit button
+","1. No error message appear
+2. The Customer ID information appears. The user is added to the database
+","1. FirstName-Vika
+LastName-Smirnova
+Email- kryuvik@rambler.ru
+Address-Minsk
+Mobile number-80295567893
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+57,"The Delete Customer button exists on the initial page and Hamburger menu",,"https://demo.guru99.com/telecom is open.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click the Hamburger menu
+2. Check the Active buttons bellow logo (header)
+","1. Check the Active buttons: the Detete Customer button is exists
+2. The Detete Customer button is presented
+","1. 
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+58,"The blue highlighting appears after clicking on any input field",,"The page https://demo.guru99.com/telecom/addcustomer.php is open",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click on the any input field
+","1. The selected field is highlighted in blue
+","1. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
+59,"All required fields are marked *",,"The page https://demo.guru99.com/telecom/index.html is open",,,low,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Select Add Customer from initial page or Hamburger menu
+2. Check that all required fields are marked \*
+","1. User is redirected on Add Customer page
+2. All required fields are marked \*
+","1. 
+2. 
+",,,4,1,"Testing Documentation Viktoria Streminskaia",,
