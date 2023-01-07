@@ -1,0 +1,152 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+,,,,,,,,,,,,,,,,,,,,13,3,"Mobile App testing: Viktoria Streminskaia",1
+147,"Hamburger menu (upper left corner) consist of TO-DO list and Statistic sections",,"1. The application ""TO-DO-MVP is installed and opened on Tablet LENOVO TB-7304L",,,undefined,normal,smoke,positive,is-not-automated,actual,no,unknown,classic,"1. Open the application ""TO-DO-MVP""
+2. Tap on Hamburger menu (upper left corner)
+","1. The initial screen of application is opened
+2. The TO_DO list and Statistics sections are appeared
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+148,"Hamburger menu: Tapping on Statistic button opens statistic with active and completed tasks",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap on Hamburger menu (upper left corner)
+2. Tap on Statistics
+","1. The TO_DO list and Statistics sections are appeared
+2. Statistic screen with information about active and completed tasks appears
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+149,"Hamburger menu: Tapping on TO_DO List a general list of tasks is displayed (All TO-DOs)",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some task were created",,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Tap on Hamburger menu (upper left corner)
+2. Tap on TO_DO List
+","1. The TO_DO list and Statistics sections are appeared
+2. A general list of tasks is displayed (All TO-DOs)
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+150,"Creating a new task: Numbers in the Title",,"1. The application ""TO-DO-MVP is installed and opened on Tablet LENOVO TB-7304L
+2. The app's initial screen is open",,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Tap on the ""+"" button in the lower right corner
+2. Fill in the Title with Numbers
+3. Tap the ✓ (lower right corner) button in the list
+","1. The New TO-DO screen opens
+2. The entered data appears in the Title
+3. The task with the entered Title has been created
+","1. 
+2. New Year 2023
+3. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+151,"Statistic section: returning to the initial screen by swiping the screen from left to right or by pressing the ← button.",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. The initial screen opened",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap on Hamburger menu (upper left corner)
+2. Tap on Statistics
+3. Swipe rom the left side of the screen to the right or tap the ""←"" button
+","1. The TO_DO list and Statistics sections are appeared
+2. Statistic screen with information about active and completed tasks appears
+3. Returns to the initial screen
+","1. 
+2. 
+3. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+152,"TO-Do List/ All To-DOs: checking the ability of edit Title or Description",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. The task "" New Year celebration"" was created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap on Hamburger menu (upper left corner)
+2. Tap on TO_DO List
+3. Mark check-box ""New Year celebration"" task
+4. Tap on edit button ( [![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q1046333#P856 ""Edit this at Wikidata"")) in the lower right corner
+5. Edit Title or Description
+6. Tap on the ""✓ ""(lower right corner) button
+","1. The TO_DO list and Statistics sections are appeared
+2. A general list of tasks is displayed (All TO-DOs)
+3. The checkbox is marked in the task ""New Year celebration"" task
+4. The ability of edit task appears
+5. The symbols appear in Title or Description fields
+6. The task is resaved with changes
+","1. 
+2. 
+3. 
+4. 
+5. Title=New Year
+6. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+153,"Creating a new task: creating multiple tasks with the same Title is prohibited.",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. The task "" New Year celebration"" was created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap TO_DO list from Hamburger menu (upper left corner)
+2. Tap on the ""+"" button in the lower right corner
+3. Fill in the Title with an existing title
+","1. A general list of tasks is displayed (All TO-DOs)
+2. The New TO-DO screen opens
+3. The message ""A task with this Title exists. Change Title"" appears.
+","1. 
+2. 
+3. New Year celebration
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+154,"Creating a new task: Cancel creating a new task and return to the initial page via ""←"" button",,"1. The application ""TO-DO-MVP is installed and opened on Tablet LENOVO TB-7304L
+2. The app's initial screen is open",,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Tap on the ""+"" button in the lower right corner
+2. Tap ""←"" button
+","1. The New TO-DO screen opens
+2. Returns to the previous screen. New task not created
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+155,"Doner menu / ""All"" button shows the list of all tasks",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap the Doner menu button (upper right corner)
+2. Tap the ""All"" button
+","1. The All, Active, Completed sections are appeared
+2. List All TO-DOs with all existing tasks appears
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+156,"Doner menu / ""Active"" button contains the list of active tasks",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap the Doner menu button (upper right corner)
+2. Tap the ""Active"" button
+","1. The All, Active, Completed sections are appeared
+2. List Active TO-DOs with active tasks appears
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+157,"Doner menu / ""Completed"" button contains the list of completed tasks",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Tap the Doner menu button (upper right corner)
+2. Tap the ""Completed"" button
+","1. The All, Active, Completed sections are appeared
+2. List Completed TO-DOs with completed tasks appears
+","1. 
+2. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+158,"Kebab menu / ""Refresh"" button  refreshes the screen with saving all app's information",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Open All TO-DOs list
+2. Tap the Kebab menu (upper right corner)
+3. Tap the ""Refresh"" button
+","1. List with existing tasks is open
+2. The ""Clear completed"" and ""Refresh"" section appear
+3. The screen is updated. All information is saved
+","1. 
+2. 
+3. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+159,"Kebab menu / ""Clear completed"" button clears the list of completed tasks",,"1.The application ""TO-DO-MVP is installed and opened on real device Lenovo TB-7304l
+2\. Some tasks were created",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Open All TO-DOs list
+2. Tick task
+3. Tap the Kebab menu (upper right corner)
+4. Tap the ""Clear completed"" button
+","1. List with existing tasks is open
+2. Task marked check-box. Pop-up message ""Task is completed"" appears
+3. The ""Clear completed"" and ""Refresh"" section appear
+4. The list of completed task is cleared
+","1. 
+2. 
+3. 
+4. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,
+160,"Creating a new task in list",,"1. The application ""TO-DO-MVP is installed and opened on Tablet LENOVO TB-7304L
+2. The app's initial screen is open",,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Tap on the ""+"" button in the lower right corner
+2. Fill in the Title
+3. Fill in the description text area
+4. Tap the ✓ (lower right corner) button in the list
+","1. The New TO-DO screen opens
+2. The entered data appears in the Title
+3. The entered data appears in the description text area
+4. The task with the entered Title has been created
+","1. 
+2. New Year celebrating
+3. Guests: 
+ Masha
+ Sasha
+ Dasha
+4. 
+",,,13,3,"Mobile App testing: Viktoria Streminskaia",,

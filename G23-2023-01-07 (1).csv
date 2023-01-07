@@ -1,0 +1,216 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+,,,,,,,,,,,,,,,,,,,,9,2,"Web App Testing : Victoria Streminskaia",1
+110,"Корзина: выбор и добавление товара через: боковое меню/переход по категориям товаров в хедере",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Появляется сообщение ""The product has been added to your shopping cart"". Товар добавлен в корзину
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+111,"Каталог: наличие информера, указываеющего на доступность покупки товара: в наличии/нет в наличии, остаток числом, много/мало/достаточно",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,low,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Перейти в любую категорию товара через боковое меню/хедер страницы
+","1. Осуществялется переход в выбранную категорию товаров. Под каждым товаром расположен информер с указанием инфрмации о доступности/недоступности товара к покупке
+","1. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+112,"Корзина: Наличие изображения для каждого товара в каталоге, возможность увеличения картинки (лупа или через ""+"")",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,low,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть на интересующий товар
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Открывается карточка товара с его изображением и возможностью увеличения/уменьшения картинки
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+113,"Корзина: Возможность добавления товара в избранное путем нажатия на Add to Wish list в карточке товара",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Выбрать товар из каталога, кликнуть по картинке
+3. Кликнуть на Add to Wish list в карточке товара
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Осуществляется переход в карточку товара
+3. Появляется сообщение ""The product has been added to your [wishlist](https://demowebshop.tricentis.com/wishlist)"" В хедере страницы в разделе Wish list нумерация +1
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. * [APPAREL & SHOES ](https://demowebshop.tricentis.com/apparel-shoes)/ 
+* **BLUE JEANS**
+3. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+114,"Корзина: Редактирование корзины через кнопку Edit  под карточками товаров в корзине",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Кликнуть на кнопку Edit под наименованием товара
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Появляется сообщение ""The product has been added to your shopping cart"". Товар добавлен в корзину
+3. Открывается корзина с перечнем выбранных товаров
+4. Открывается карточка товара с возможностью внесения корректировок и изменений.
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. [14.1-inch Laptop](https://demowebshop.tricentis.com/141-inch-laptop), [Smartphone](https://demowebshop.tricentis.com/smartphone)
+3. 
+4. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+115,"Корзина: Удаление товара из корзины через Delete или значок Х в карточке товара",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Кликнуть на кнопку Delete или Х напротив товара для его удаления из корзины
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Появляется сообщение ""The product has been added to your shopping cart"". Товар добавлен в корзину
+3. Открывается корзина с перечнем выбранных товаров
+4. Товар удален из корзины
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. [14.1-inch Laptop](https://demowebshop.tricentis.com/141-inch-laptop), [Smartphone](https://demowebshop.tricentis.com/smartphone)
+3. 
+4. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+116,"Корзина: Возможность возврата из корзины на главную страницу каталога через нажатие на Continue shopping",,"Пользователь находится на странице https://demowebshop.tricentis.com/",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть по категории товаров в боковом меню/в хедере страницы.
+2. Кликнуть Add to cart под карточкой интересующего товара
+3. Перейти в корзину путем нажатия на Shopping Cart в хедере страницы
+4. Кликнуть на кнопку Continue shopping для возврата на главную страницу
+","1. Осуществляется переход в выбранную категорию товаров с отображением перечня товаров для покупки
+2. Появляется сообщение ""The product has been added to your shopping cart"". Товар добавлен в корзину
+3. Открывается корзина с перечнем выбранных товаров
+4. Открывается главная страница https://demowebshop.tricentis.com/
+","1. Категории товаров: [Books](https://demowebshop.tricentis.com/books)
+
+* [Computers](https://demowebshop.tricentis.com/computers)
+* [Electronics](https://demowebshop.tricentis.com/electronics)
+* [Apparel & Shoes](https://demowebshop.tricentis.com/apparel-shoes)
+* [Digital downloads](https://demowebshop.tricentis.com/digital-downloads)
+* [Jewelry](https://demowebshop.tricentis.com/jewelry)
+* [Gift Cards](https://demowebshop.tricentis.com/gift-cards)
+2. [14.1-inch Laptop](https://demowebshop.tricentis.com/141-inch-laptop), [Smartphone](https://demowebshop.tricentis.com/smartphone)
+3. 
+4. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+117,"Модуль оплаты: Payment Method - оплата картой с недостаточным балансом",,"Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.",,,high,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя
+4. В ""Card number"" ввести номер карты с недостаточным балансом
+5. В ""Expiration date"" выбрать дату
+6. В ""Card code"" ввести код
+7. Нажать на кнопку ""Continue""
+","1. Осуществляется переход в раздел Payment Information
+2. VISA выбран из дропдауна
+3. TEST отображается в строке Cardholder name
+4. Номер карты отображается в строке Card number
+5. Дата принимается
+6. Код принят
+7. Появляется валидационное сообщение о недостаточном количестве средств на денежном счету
+","1. 
+2. 
+3. TEST
+4. 375118435530560
+5. 12/2025
+6. 123
+7. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+118,"Модуль оплаты: Payment Method - оплата валидной картой VISA",,"Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя
+4. В ""Card number"" ввести номер валидной карты VISA
+5. В ""Expiration date"" выбрать дату
+6. В ""Card code"" ввести код
+7. Нажать на кнопку ""Continue""
+8. Нажать на кнопку ""Confirm""
+","1. Осуществляется переход в раздел Payment Information
+2. VISA выбран из дропдауна
+3. TEST отображается в строке Cardholder name
+4. Номер карты отображается в строке Card number
+5. Дата принимается
+6. Код принят
+7. Осуществляется переход в ""Confirm Order""
+8. Появляется окно с сообщением ""Your order has been successfully processed"" и номером зазаза
+","1. 
+2. 
+3. TEST
+4. 4111111111111110
+5. 12/2025
+6. 123
+7. 
+8. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+119,"Корзина: Estimate shipping- осуществление расчета стоимости доставки товара в зависимости от метода доставки",,"Товар находится в корзине",,,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Кликнуть на Shopping Cart в хедере страницы
+2. В Estimate shipping в поле Country выбрать страну из дропдауна
+3. В Postal code ввести валидный почтовый код
+4. Нажать на кнопку Estimate shipping
+","1. Осуществляется переход в корзину
+2. Выбранная страна отображается в поле Country
+3. Почтовый индекс отображается в строке Postal code
+4. Осуществляется расчет стоимости доставки в зависимости от метода доставки
+","1. 
+2. Andora
+3. AD500
+4. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+120,"Модуль оплаты: Payment Method - оплата украденной картой",,"Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.",,,high,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя
+4. В ""Card number"" ввести номер карты со статусом Pick up. Stolen card
+5. В ""Expiration date"" выбрать дату
+6. В ""Card code"" ввести код
+7. Нажать на кнопку ""Continue""
+","1. Осуществляется переход в раздел Payment Information
+2. VISA выбран из дропдауна
+3. TEST отображается в строке Cardholder name
+4. Номер карты отображается в строке Card number
+5. Дата принимается
+6. Код принят
+7. Появляется валидационное сообщение о невозможности оплаты данной картой
+","1. 
+2. 
+3. TEST
+4. 38000000000006
+5. 12/2025
+6. 123
+7. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
+121,"Модуль оплаты: Payment Method - оплата картой с запрещенной транзакцией",,"Товар находится в корзине, пользователь согласился с условиями оплаты, заполнил Billing Address, Shipping Address, Shipping Method.",,,high,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. В разделе Payment Method отметить radiobutton Ctedit card. Нажать Continue
+2. В ""Select credit card"" выбрать ""VISA""
+3. В ""Cardholder name"" ввести имя
+4. В ""Card number"" ввести номер карты со статусом Transaction not permitted to CH
+5. В ""Expiration date"" выбрать дату
+6. В ""Card code"" ввести код
+7. Нажать на кнопку ""Continue""
+","1. Осуществляется переход в раздел Payment Information
+2. VISA выбран из дропдауна
+3. TEST отображается в строке Cardholder name
+4. Номер карты отображается в строке Card number
+5. Дата принимается
+6. Код принят
+7. Появляется валидационное сообщение о невозможности оплаты данной картой
+","1. 
+2. 
+3. TEST
+4. 4750657776370372
+5. 12/2025
+6. 123
+7. 
+",,,9,2,"Web App Testing : Victoria Streminskaia",,
